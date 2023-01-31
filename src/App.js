@@ -1,5 +1,6 @@
 import './App.css';
 import Start from './Start';
+import Categories from './Categories';
 
 function App() {
   return (
@@ -7,17 +8,9 @@ function App() {
       {/* <Start /> */}
       <div className="studio">
         <div className="studio__monitor">
-          <ul className="studio__categories">
-            <h2 className="studio__categories-title">Категорії</h2>
-            <li className="studio__category yellow">Література</li>
-            <li className="studio__category blue">Музика</li>
-            <li className="studio__category green">Спорт</li>
-            <li className="studio__category red">Технології</li>
-            <li className="studio__category orange">Фільми</li>
-          </ul>
+          <Categories />
         </div>
       </div>
-
     </div>
   );
 }

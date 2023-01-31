@@ -177,12 +177,12 @@ li {
   margin: auto;
 }
 
-.studio__categories {
+.categories__inner {
   text-align: center;
   padding: 20px;
 }
 
-.studio__categories-title {
+.categories__title {
   font-size: 28px;
   line-height: 32px;
   font-weight: 600;
@@ -191,18 +191,30 @@ li {
   letter-spacing: 5px;
 }
 
-.studio__category {
+.categories__category {
   font-size: 22px;
   line-height: 26px;
   font-weight: 600;
   margin: 20px auto;
   list-style: none;
   border: 2px solid transparent;
+  border-radius: 5px;
   max-width: 50%;
   text-align: center;
   padding: 5px;
   color: #000;
   text-transform: uppercase;
+}
+
+.categories__category:hover {
+  transition: all .5s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.disable {
+  opacity: 0.1;
 }
 
 .yellow {
