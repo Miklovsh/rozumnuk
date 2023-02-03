@@ -255,7 +255,7 @@ li {
 }
 
 .categories__category:hover {
-  transition: all .5s;
+  transition: all 1s;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
