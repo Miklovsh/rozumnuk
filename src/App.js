@@ -24,6 +24,7 @@ function App() {
     setRules(true);
   }
 
+  
 
   return (
     <div className="App">
@@ -48,7 +49,7 @@ function App() {
           </div>
         </div>
       )}
-      <Lost />
+      {/* <Lost /> */}
       <Winner name={name} />
     </div>
   );
