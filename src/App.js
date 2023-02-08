@@ -24,7 +24,8 @@ function App() {
     setRules(true);
   }
 
-  
+
+
 
   return (
     <div className="App">

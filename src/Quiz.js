@@ -1,6 +1,7 @@
 import React from "react";
 
 function Quiz() {
+
   return (
     <div className="quiz">
       <span className="quiz__timer">90</span>
