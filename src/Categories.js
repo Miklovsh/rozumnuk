@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-
+import React from "react";
 
 function Categories(
   { setCategories,
@@ -11,39 +9,28 @@ function Categories(
     setFilmsCategory
   }) {
 
-  const [literature, setLiterature] = useState(true);
-  const [music, setMusic] = useState(true);
-  const [sport, setSport] = useState(true);
-  const [technologies, setTechnologies] = useState(true);
-  const [films, setFilms] = useState(true);
 
-
-  function setClassLiterature() {
-    setLiterature(false);
+  function chooseLiterature() {
     setLiteratureCategory(true);
     setCategories(false);
   }
 
-  function setClassMusic() {
-    setMusic(false);
+  function chooseMusic() {
     setMusicCategory(true);
     setCategories(false);
   }
 
-  function setClassSport() {
-    setSport(false);
+  function chooseSport() {
     setSportCategory(true);
     setCategories(false);
   }
 
-  function setClassTechnologies() {
-    setTechnologies(false);
+  function chooseTechnologies() {
     setTechnologiesCategory(true);
     setCategories(false);
   }
 
-  function setClassFilms() {
-    setFilms(false);
+  function chooseFilms() {
     setFilmsCategory(true);
     setCategories(false);
   }
@@ -53,11 +40,11 @@ function Categories(
     <div className="categories" >
       <ul className="categories__inner">
         <h2 className="categories__title">Категорії</h2>
-        <li className={literature ? "categories__category yellow" : "categories__category yellow disable"} onClick={setClassLiterature}>Література</li>
-        <li className={music ? "categories__category blue" : "categories__category blue disable"} onClick={setClassMusic}>Музика</li>
-        <li className={sport ? "categories__category green" : "categories__category green disable"} onClick={setClassSport}>Спорт</li>
-        <li className={technologies ? "categories__category red" : "categories__category red disable"} onClick={setClassTechnologies}>Технології</li>
-        <li className={films ? "categories__category orange" : "categories__category orange disable"} onClick={setClassFilms}>Фільми</li>
+        <li className="categories__category yellow" onClick={chooseLiterature}>Література</li>
+        <li className="categories__category blue" onClick={chooseMusic}>Музика</li>
+        <li className="categories__category green" onClick={chooseSport}>Спорт</li>
+        <li className="categories__category red" onClick={chooseTechnologies}>Технології</li>
+        <li className="categories__category orange" onClick={chooseFilms}>Фільми</li>
       </ul>
     </div>
   )

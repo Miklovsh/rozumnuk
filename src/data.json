@@ -1,1064 +1,512 @@
 {
-  "data": {
-    "Literature": [
-      {
-        "question": "В якого з поетів на надгробній плиті як епітафію вигравірувано напис «Не намагайтеся»?",
-        "answers": [
-          {
-            "option": "Чарлз Буковскі",
-            "correct": true
-          },
-          {
-            "option": "Вільям Шекспір",
-            "correct": false
-          },
-          {
-            "option": "Віктор Гюго",
-            "correct": false
-          },
-          {
-            "option": "Гомер",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "В романі «Портрет Доріана Грея» де ховав Доріан Грей свій портрет?",
-        "answers": [
-          {
-            "option": "В холодильнику",
-            "correct": false
-          },
-          {
-            "option": "На горищі",
-            "correct": true
-          },
-          {
-            "option": "Під подушкою",
-            "correct": false
-          },
-          {
-            "option": "В сейфі банку",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Як звали головного героя роману Оруела «1984»?",
-        "answers": [
-          {
-            "option": "Містер Чаррінґтон",
-            "correct": false
-          },
-          {
-            "option": "О'Браєн",
-            "correct": false
-          },
-          {
-            "option": "Вінстон Сміт",
-            "correct": true
-          },
-          {
-            "option": "Джеймс Бонд",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто написав твір «Фауст»?",
-        "answers": [
-          {
-            "option": "Еріх Марія Ремарк",
-            "correct": false
-          },
-          {
-            "option": "Фрідріх Ніцше",
-            "correct": false
-          },
-          {
-            "option": "Жан Поль",
-            "correct": false
-          },
-          {
-            "option": "Йоганн Вольфганг фон Гете",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "З якого роману ця цитата «Велич людини в тому, що вона міст, а не мета»?",
-        "answers": [
-          {
-            "option": "Так казав Заратустра",
-            "correct": true
-          },
-          {
-            "option": "Алхімік",
-            "correct": false
-          },
-          {
-            "option": "Деміан",
-            "correct": false
-          },
-          {
-            "option": "Маятник Фуко",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто з письменників отримав Нобелівську премію з літератури?",
-        "answers": [
-          {
-            "option": "Габрієль Гарсія Маркес",
-            "correct": true
-          },
-          {
-            "option": "Ганс Крістіан Андерсен",
-            "correct": false
-          },
-          {
-            "option": "Оноре́ де Бальза́к",
-            "correct": false
-          },
-          {
-            "option": "Франц Кафка",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто автор цитати «Я знаю тільки те, що нічого не знаю»?",
-        "answers": [
-          {
-            "option": "Фрідріх Ніцше",
-            "correct": false
-          },
-          {
-            "option": "Сократ",
-            "correct": true
-          },
-          {
-            "option": "Іммануїл Кант",
-            "correct": false
-          },
-          {
-            "option": "Платон",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Яке хобі було в Ернеста Хемінгуея?",
-        "answers": [
-          {
-            "option": "Читати реп",
-            "correct": false
-          },
-          {
-            "option": "Грати сопілці",
-            "correct": false
-          },
-          {
-            "option": "Риболовля",
-            "correct": true
-          },
-          {
-            "option": "Розводити бджоли",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто такий Йорік в «Гамлеті» Вільяма Шекспіра?",
-        "answers": [
-          {
-            "option": "Син Гамлета",
-            "correct": false
-          },
-          {
-            "option": "Собака Гамлета",
-            "correct": false
-          },
-          {
-            "option": "Дворянин",
-            "correct": false
-          },
-          {
-            "option": "Череп, з яким спілкувався Гамлет",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "В якому році народився американський письменник Стівен Кінг?",
-        "answers": [
-          {
-            "option": "1937",
-            "correct": false
-          },
-          {
-            "option": "1947",
-            "correct": true
-          },
-          {
-            "option": "1959",
-            "correct": false
-          },
-          {
-            "option": "1969",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "Music": [
-      {
-        "question": "Як називався перший альбом групи «The Beatles»?",
-        "answers": [
-          {
-            "option": "Please Please Me",
-            "correct": true
-          },
-          {
-            "option": "Beatles for Sale",
-            "correct": false
-          },
-          {
-            "option": "The Beatles",
-            "correct": false
-          },
-          {
-            "option": "Let It Be",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "В 2020 році хто отримав премію Греммі в номінації «Кращий новий виконавець»?",
-        "answers": [
-          {
-            "option": "Lil Nas X",
-            "correct": false
-          },
-          {
-            "option": "Yola",
-            "correct": false
-          },
-          {
-            "option": "Black Pumas",
-            "correct": false
-          },
-          {
-            "option": "Billie Eilish",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Яку кількість слів Емінем зачитав в пісні «Godzilla» встановивши світовий рекорд по швидкості читання репу?",
-        "answers": [
-          {
-            "option": "227",
-            "correct": false
-          },
-          {
-            "option": "228",
-            "correct": false
-          },
-          {
-            "option": "229",
-            "correct": true
-          },
-          {
-            "option": "230",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто є автором легендарної пісні «The Show Must Go On»?",
-        "answers": [
-          {
-            "option": "Група Queen",
-            "correct": true
-          },
-          {
-            "option": "Група Scorpions",
-            "correct": false
-          },
-          {
-            "option": "Група System of a Down",
-            "correct": false
-          },
-          {
-            "option": "Група Hollywood Undead",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Як звати вокаліста та засновника групи «Imagine Dragons»?",
-        "answers": [
-          {
-            "option": "Вейн Сермон",
-            "correct": false
-          },
-          {
-            "option": "Ден Рейнольдс",
-            "correct": true
-          },
-          {
-            "option": "Бен МакКі",
-            "correct": false
-          },
-          {
-            "option": "Ден Платцман",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "За що отримав премію Греммі джаз виконавець Луї Армстронг?",
-        "answers": [
-          {
-            "option": "За досягнення в галузі вокального співу",
-            "correct": false
-          },
-          {
-            "option": "За досягнення в галузі економіки",
-            "correct": false
-          },
-          {
-            "option": "За досягнення в галузі музикальних танців",
-            "correct": false
-          },
-          {
-            "option": "За досягнення в галузі звукозапису",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Який музикальний кліп першим набрав більше 1 мільярда переглядів в YouTube?",
-        "answers": [
-          {
-            "option": "Luis Fonsi - Despacito ft. Daddy Yankee",
-            "correct": false
-          },
-          {
-            "option": "Wiz Khalifa - See You Again ft. Charlie Puth",
-            "correct": false
-          },
-          {
-            "option": "Psy - Gangnam Style",
-            "correct": true
-          },
-          {
-            "option": "Maroon 5 - Sugar",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "В якому віці помер самий відомий виконавець в стилі реггі Боб Марлі?",
-        "answers": [
-          {
-            "option": "27",
-            "correct": false
-          },
-          {
-            "option": "36",
-            "correct": true
-          },
-          {
-            "option": "45",
-            "correct": false
-          },
-          {
-            "option": "70",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Скільки нагород Греммі виграв Майкл Джексон?",
-        "answers": [
-          {
-            "option": "5",
-            "correct": false
-          },
-          {
-            "option": "10",
-            "correct": false
-          },
-          {
-            "option": "15",
-            "correct": true
-          },
-          {
-            "option": "20",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Яка країна перемогла в пісенному конкурсі Євробачення в 2016 році?",
-        "answers": [
-          {
-            "option": "Україна",
-            "correct": true
-          },
-          {
-            "option": "Австралія",
-            "correct": false
-          },
-          {
-            "option": "Польща",
-            "correct": false
-          },
-          {
-            "option": "Велика Британія",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "Sport": [
-      {
-        "question": "Найтитулованіший біатлоніст серед чоловіків в світі?",
-        "answers": [
-          {
-            "option": "Свен Фішер",
-            "correct": false
-          },
-          {
-            "option": "Уле Ейнар Бйорндален",
-            "correct": true
-          },
-          {
-            "option": "Рафаель Пуаре",
-            "correct": false
-          },
-          {
-            "option": "Еміль Хегле Свендсен",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Яка збірна жодного разу не перемагала на чемпіонаті світу по футболу серед чоловіків?",
-        "answers": [
-          {
-            "option": "Уругвай",
-            "correct": false
-          },
-          {
-            "option": "Іспанія",
-            "correct": false
-          },
-          {
-            "option": "Англія",
-            "correct": false
-          },
-          {
-            "option": "Нідерланди",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Кого в фіналі чемпіонату світу 2006 року по футболу головою вдарив Зінедін Зідан?",
-        "answers": [
-          {
-            "option": "Клода Макелеле",
-            "correct": false
-          },
-          {
-            "option": "Паоло Мальдіні",
-            "correct": false
-          },
-          {
-            "option": "Марко Матерацці",
-            "correct": true
-          },
-          {
-            "option": "Нікого",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Скільки поразок в професійному боксі зазнав Мухаммед Алі?",
-        "answers": [
-          {
-            "option": "1",
-            "correct": false
-          },
-          {
-            "option": "3",
-            "correct": false
-          },
-          {
-            "option": "5",
-            "correct": true
-          },
-          {
-            "option": "0",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто переміг на чемпіонаті світу 2011 року по гандболу серед жінок?",
-        "answers": [
-          {
-            "option": "Франція",
-            "correct": false
-          },
-          {
-            "option": "Норвегія",
-            "correct": true
-          },
-          {
-            "option": "Бразилія",
-            "correct": false
-          },
-          {
-            "option": "Данія",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Скільки разів Майкл Фелпс перемагав на Олімпійських іграх по плаванню до 2022 року включно?",
-        "answers": [
-          {
-            "option": "2",
-            "correct": false
-          },
-          {
-            "option": "5",
-            "correct": false
-          },
-          {
-            "option": "14",
-            "correct": false
-          },
-          {
-            "option": "23",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Яким видом спорту займається Ольга Харлан?",
-        "answers": [
-          {
-            "option": "Фехтування",
-            "correct": true
-          },
-          {
-            "option": "Плавання",
-            "correct": false
-          },
-          {
-            "option": "Спортивні танці",
-            "correct": false
-          },
-          {
-            "option": "Гімнастика",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "За який час Усейн Болт пробіг 100 метрів в 2009 році встановивши світовий рекорд?",
-        "answers": [
-          {
-            "option": "9.27 секунд",
-            "correct": false
-          },
-          {
-            "option": "9.52 секунд",
-            "correct": false
-          },
-          {
-            "option": "9.58 секунд",
-            "correct": true
-          },
-          {
-            "option": "9.80 секунд",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Яка жіноча збірна по волейболу перемогла на чемпіонаті Європи 2021 року?",
-        "answers": [
-          {
-            "option": "Сербія",
-            "correct": false
-          },
-          {
-            "option": "Італія",
-            "correct": true
-          },
-          {
-            "option": "Польща",
-            "correct": false
-          },
-          {
-            "option": "Франція",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто серед тенісистів найбільше разів переміг на турнірі Вімблдон з 1991-2022 рік?",
-        "answers": [
-          {
-            "option": "Роджер Федерер",
-            "correct": true
-          },
-          {
-            "option": "Рафаель Надаль",
-            "correct": false
-          },
-          {
-            "option": "Новак Джоковіч",
-            "correct": false
-          },
-          {
-            "option": "Піт Сампрас",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "Technologies": [
-      {
-        "question": "Оберіть найпопулярніші фронтенд бібліотеки для створення web додатків?",
-        "answers": [
-          {
-            "option": "React, Vue.js, Angular",
-            "correct": true
-          },
-          {
-            "option": "Spring Framework, Vaadin, Hibernate",
-            "correct": false
-          },
-          {
-            "option": "React Native, Flutter, Framework7",
-            "correct": false
-          },
-          {
-            "option": "Laravel, CodeIgniter, Symfony",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Що таке HTML?",
-        "answers": [
-          {
-            "option": "Мова програмування",
-            "correct": false
-          },
-          {
-            "option": "Валюта в Словенії",
-            "correct": false
-          },
-          {
-            "option": "Мова гіпертекстової розмітки",
-            "correct": true
-          },
-          {
-            "option": "Бібліотека",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто є засновником компанії Amazon?",
-        "answers": [
-          {
-            "option": "Ілон Маск",
-            "correct": false
-          },
-          {
-            "option": "Джефф Безос",
-            "correct": true
-          },
-          {
-            "option": "Білл Гейтс",
-            "correct": false
-          },
-          {
-            "option": "Марк Цукерберг",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "На якій мові програмування написана одна з найпопулярніших в світі CMS WordPress?",
-        "answers": [
-          {
-            "option": "Java",
-            "correct": false
-          },
-          {
-            "option": "Python",
-            "correct": false
-          },
-          {
-            "option": "C++",
-            "correct": false
-          },
-          {
-            "option": "PHP",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Що саме створив Лінус Торвальдс?",
-        "answers": [
-          {
-            "option": "Систему керування версіями файлів GIT",
-            "correct": true
-          },
-          {
-            "option": "Програмну платформу Docker",
-            "correct": false
-          },
-          {
-            "option": "Систему відстеження помилок JIRA",
-            "correct": false
-          },
-          {
-            "option": "Мову програмування GO",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Яка компанія створила операційну систему windows?",
-        "answers": [
-          {
-            "option": "Tesla",
-            "correct": false
-          },
-          {
-            "option": "Microsoft",
-            "correct": true
-          },
-          {
-            "option": "Meta",
-            "correct": false
-          },
-          {
-            "option": "Apple",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "У середині 70-х років 20 століття хто самостійно спроектував комп’ютери Apple 1 та Apple 2?",
-        "answers": [
-          {
-            "option": "Стів Джобс",
-            "correct": false
-          },
-          {
-            "option": "Рональд Вейн",
-            "correct": false
-          },
-          {
-            "option": "Стівен Возняк",
-            "correct": true
-          },
-          {
-            "option": "Білл Гейтс",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто здійснив перший дзвінок по мобільному телефону?",
-        "answers": [
-          {
-            "option": "Гай Юлій Цезар",
-            "correct": false
-          },
-          {
-            "option": "Стів Джобс",
-            "correct": false
-          },
-          {
-            "option": "Сократ",
-            "correct": false
-          },
-          {
-            "option": "Мартін Купер",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "В якому році була заснована компанія IBM?",
-        "answers": [
-          {
-            "option": "1911",
-            "correct": true
-          },
-          {
-            "option": "1945",
-            "correct": false
-          },
-          {
-            "option": "1953",
-            "correct": false
-          },
-          {
-            "option": "1960",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Перше фінансування для компанії Google від Енді Бехтольсгейма становило?",
-        "answers": [
-          {
-            "option": "1 000 доларів",
-            "correct": false
-          },
-          {
-            "option": "10 000 доларів",
-            "correct": false
-          },
-          {
-            "option": "100 000 доларів",
-            "correct": true
-          },
-          {
-            "option": "1 000 000 доларів",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "Films": [
-      {
-        "question": "Хто є режисером фільму «Список Шиндлера»?",
-        "answers": [
-          {
-            "option": "Роберт Земекіс",
-            "correct": false
-          },
-          {
-            "option": "Стівен Спілберг",
-            "correct": true
-          },
-          {
-            "option": "Крістофер Нолан",
-            "correct": false
-          },
-          {
-            "option": "Вуді Аллен",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "За зйомки в якому фільмі Леонардо Ді Капріо отримав Оскар «кращого актора»?",
-        "answers": [
-          {
-            "option": "Уцілілий",
-            "correct": true
-          },
-          {
-            "option": "Титанік",
-            "correct": false
-          },
-          {
-            "option": "Тіло Брехні",
-            "correct": false
-          },
-          {
-            "option": "Вовк з Волл-стріт",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Хто зіграв роль дона Віто Корлеоне в фільмі «Хрещений батько»?",
-        "answers": [
-          {
-            "option": "Аль Пачіно",
-            "correct": false
-          },
-          {
-            "option": "Роберт Дюваль",
-            "correct": false
-          },
-          {
-            "option": "Роберт де Ніро",
-            "correct": false
-          },
-          {
-            "option": "Марлон Брандо",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "В чому був звинувачений банківський працівник Енді Дюфрейн в фільмі «Втеча з Шоушенка»?",
-        "answers": [
-          {
-            "option": "У вбивстві своєї дружини та її коханця",
-            "correct": true
-          },
-          {
-            "option": "У шахрайстві в особливо великих розмірах",
-            "correct": false
-          },
-          {
-            "option": "У несплаті податків",
-            "correct": false
-          },
-          {
-            "option": "У смертельному ДТП",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Який з гріхів символізував Джон Доу в фільмі «Сім» режисером якого є Девід Фінчер?",
-        "answers": [
-          {
-            "option": "Гординя",
-            "correct": false
-          },
-          {
-            "option": "Гнів",
-            "correct": false
-          },
-          {
-            "option": "Заздрість",
-            "correct": true
-          },
-          {
-            "option": "Жадібність",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Від чого помер головний герой фільму «Титанік» Джек Доусон?",
-        "answers": [
-          {
-            "option": "Не вмів плавати і втонув",
-            "correct": false
-          },
-          {
-            "option": "Його з’їли акули",
-            "correct": false
-          },
-          {
-            "option": "Отруївся",
-            "correct": false
-          },
-          {
-            "option": "Отримав переохолодження",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Ветераном якої війни був головний герой фільму «Рембо: Перша кров» Джон Рембо?",
-        "answers": [
-          {
-            "option": "Іракської",
-            "correct": false
-          },
-          {
-            "option": "В'єтнамської",
-            "correct": true
-          },
-          {
-            "option": "Афганської",
-            "correct": false
-          },
-          {
-            "option": "Другої світової",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "В якому році був знятий фільм «Термінатор» перша частина?",
-        "answers": [
-          {
-            "option": "1984",
-            "correct": true
-          },
-          {
-            "option": "1987",
-            "correct": false
-          },
-          {
-            "option": "1990",
-            "correct": false
-          },
-          {
-            "option": "1991",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Скільки дублів для зйомки трюку з бадмінтоном у стрічці «Лорд Дракон» здійснив Джекі Чан?",
-        "answers": [
-          {
-            "option": "22",
-            "correct": false
-          },
-          {
-            "option": "2713",
-            "correct": false
-          },
-          {
-            "option": "2900",
-            "correct": true
-          },
-          {
-            "option": "більше 3 000",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Рік народження американського актора Чака Норріса?",
-        "answers": [
-          {
-            "option": "1970",
-            "correct": false
-          },
-          {
-            "option": "1940",
-            "correct": true
-          },
-          {
-            "option": "1955",
-            "correct": false
-          },
-          {
-            "option": "787 рік до нашої ери",
-            "correct": false
-          }
-        ]
-      }
-    ]
-  }
+  "Literature": [
+    {
+      "question": "В якого з поетів на надгробній плиті як епітафію вигравірувано напис «Не намагайтеся»?",
+      "answers": [
+        "Чарлз Буковскі",
+        "Вільям Шекспір",
+        "Віктор Гюго",
+        "Гомер"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "В романі «Портрет Доріана Грея» де ховав Доріан Грей свій портрет?",
+      "answers": [
+        "В холодильнику",
+        "На горищі",
+        "Під подушкою",
+        "В сейфі банку"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Як звали головного героя роману Оруела «1984»?",
+      "answers": [
+        "Містер Чаррінґтон",
+        "О'Браєн",
+        "Вінстон Сміт",
+        "Джеймс Бонд"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто написав твір «Фауст»?",
+      "answers": [
+        "Еріх Марія Ремарк",
+        "Фрідріх Ніцше",
+        "Жан Поль",
+        "Йоганн Вольфганг фон Гете"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "З якого роману ця цитата «Велич людини в тому, що вона міст, а не мета»?",
+      "answers": [
+        "Так казав Заратустра",
+        "Алхімік",
+        "Деміан",
+        "Маятник Фуко"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Хто з письменників отримав Нобелівську премію з літератури?",
+      "answers": [
+        "Габрієль Гарсія Маркес",
+        "Ганс Крістіан Андерсен",
+        "Оноре́ де Бальза́к",
+        "Франц Кафка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Хто автор цитати «Я знаю тільки те, що нічого не знаю»?",
+      "answers": [
+        "Фрідріх Ніцше",
+        "Сократ",
+        "Іммануїл Кант",
+        "Платон"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Яке хобі було в Ернеста Хемінгуея?",
+      "answers": [
+        "Читати реп",
+        "Грати сопілці",
+        "Риболовля",
+        "Розводити бджоли"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто такий Йорік в «Гамлеті» Вільяма Шекспіра?",
+      "answers": [
+        "Син Гамлета",
+        "Собака Гамлета",
+        "Дворянин",
+        "Череп, з яким спілкувався Гамлет"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "В якому році народився американський письменник Стівен Кінг?",
+      "answers": [
+        "1937",
+        "1947",
+        "1959",
+        "1969"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "Music": [
+    {
+      "question": "Як називався перший альбом групи «The Beatles»?",
+      "answers": [
+        "Please Please Me",
+        "Beatles for Sale",
+        "The Beatles",
+        "Let It Be"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "В 2020 році хто отримав премію Греммі в номінації «Кращий новий виконавець»?",
+      "answers": [
+        "Lil Nas X",
+        "Yola",
+        "Black Pumas",
+        "Billie Eilish"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Яку кількість слів Емінем зачитав в пісні «Godzilla» встановивши світовий рекорд по швидкості читання репу?",
+      "answers": [
+        "227",
+        "228",
+        "229",
+        "230"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто є автором легендарної пісні «The Show Must Go On»?",
+      "answers": [
+        "Група Queen",
+        "Група Scorpions",
+        "Група System of a Down",
+        "Група Hollywood Undead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Як звати вокаліста та засновника групи «Imagine Dragons»?",
+      "answers": [
+        "Вейн Сермон",
+        "Ден Рейнольдс",
+        "Бен МакКі",
+        "Ден Платцман"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "За що отримав премію Греммі джаз виконавець Луї Армстронг?",
+      "answers": [
+        "За досягнення в галузі вокального співу",
+        "За досягнення в галузі економіки",
+        "За досягнення в галузі музикальних танців",
+        "За досягнення в галузі звукозапису"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Який музикальний кліп першим набрав більше 1 мільярда переглядів в YouTube?",
+      "answers": [
+        "Luis Fonsi - Despacito ft. Daddy Yankee",
+        "Wiz Khalifa - See You Again ft. Charlie Puth",
+        "Psy - Gangnam Style",
+        "Maroon 5 - Sugar"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "В якому віці помер самий відомий виконавець в стилі реггі Боб Марлі?",
+      "answers": [
+        "27",
+        "36",
+        "45",
+        "70"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Скільки нагород Греммі виграв Майкл Джексон?",
+      "answers": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Яка країна перемогла в пісенному конкурсі Євробачення в 2016 році?",
+      "answers": [
+        "Україна",
+        "Австралія",
+        "Польща",
+        "Велика Британія"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "Sport": [
+    {
+      "question": "Найтитулованіший біатлоніст серед чоловіків в світі?",
+      "answers": [
+        "Свен Фішер",
+        "Уле Ейнар Бйорндален",
+        "Рафаель Пуаре",
+        "Еміль Хегле Свендсен"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Яка збірна жодного разу не перемагала на чемпіонаті світу по футболу серед чоловіків?",
+      "answers": [
+        "Уругвай",
+        "Іспанія",
+        "Англія",
+        "Нідерланди"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Кого в фіналі чемпіонату світу 2006 року по футболу головою вдарив Зінедін Зідан?",
+      "answers": [
+        "Клода Макелеле",
+        "Паоло Мальдіні",
+        "Марко Матерацці",
+        "Нікого"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Скільки поразок в професійному боксі зазнав Мухаммед Алі?",
+      "answers": [
+        "1",
+        "3",
+        "5",
+        "0"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто переміг на чемпіонаті світу 2011 року по гандболу серед жінок?",
+      "answers": [
+        "Франція",
+        "Норвегія",
+        "Бразилія",
+        "Данія"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Скільки разів Майкл Фелпс перемагав на Олімпійських іграх по плаванню до 2022 року включно?",
+      "answers": [
+        "2",
+        "5",
+        "14",
+        "23"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Яким видом спорту займається Ольга Харлан?",
+      "answers": [
+        "Фехтування",
+        "Плавання",
+        "Спортивні танці",
+        "Гімнастика"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "За який час Усейн Болт пробіг 100 метрів в 2009 році встановивши світовий рекорд?",
+      "answers": [
+        "9.27 секунд",
+        "9.52 секунд",
+        "9.58 секунд",
+        "9.80 секунд"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Яка жіноча збірна по волейболу перемогла на чемпіонаті Європи 2021 року?",
+      "answers": [
+        "Сербія",
+        "Італія",
+        "Польща",
+        "Франція"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Хто серед тенісистів найбільше разів переміг на турнірі Вімблдон з 1991-2022 рік?",
+      "answers": [
+        "Роджер Федерер",
+        "Рафаель Надаль",
+        "Новак Джоковіч",
+        "Піт Сампрас"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "Technologies": [
+    {
+      "question": "Оберіть найпопулярніші фронтенд бібліотеки для створення web додатків?",
+      "answers": [
+        "React, Vue.js, Angular",
+        "Spring Framework, Vaadin, Hibernate",
+        "React Native, Flutter, Framework7",
+        "Laravel, CodeIgniter, Symfony"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Що таке HTML?",
+      "answers": [
+        "Мова програмування",
+        "Валюта в Словенії",
+        "Мова гіпертекстової розмітки",
+        "Бібліотека"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто є засновником компанії Amazon?",
+      "answers": [
+        "Ілон Маск",
+        "Джефф Безос",
+        "Білл Гейтс",
+        "Марк Цукерберг"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "На якій мові програмування написана одна з найпопулярніших в світі CMS WordPress?",
+      "answers": [
+        "Java",
+        "Python",
+        "C++",
+        "PHP"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Що саме створив Лінус Торвальдс?",
+      "answers": [
+        "Систему керування версіями файлів GIT",
+        "Програмну платформу Docker",
+        "Систему відстеження помилок JIRA",
+        "Мову програмування GO"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Яка компанія створила операційну систему windows?",
+      "answers": [
+        "Tesla",
+        "Microsoft",
+        "Meta",
+        "Apple"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "У середині 70-х років 20 століття хто самостійно спроектував комп’ютери Apple 1 та Apple 2?",
+      "answers": [
+        "Стів Джобс",
+        "Рональд Вейн",
+        "Стівен Возняк",
+        "Білл Гейтс"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Хто здійснив перший дзвінок по мобільному телефону?",
+      "answers": [
+        "Гай Юлій Цезар",
+        "Стів Джобс",
+        "Сократ",
+        "Мартін Купер"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "В якому році була заснована компанія IBM?",
+      "answers": [
+        "1911",
+        "1945",
+        "1953",
+        "1960"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Перше фінансування для компанії Google від Енді Бехтольсгейма становило?",
+      "answers": [
+        "1 000 доларів",
+        "10 000 доларів",
+        "100 000 доларів",
+        "1 000 000 доларів"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "Films": [
+    {
+      "question": "Хто є режисером фільму «Список Шиндлера»?",
+      "answers": [
+        "Роберт Земекіс",
+        "Стівен Спілберг",
+        "Крістофер Нолан",
+        "Вуді Аллен"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "За зйомки в якому фільмі Леонардо Ді Капріо отримав Оскар «кращого актора»?",
+      "answers": [
+        "Уцілілий",
+        "Титанік",
+        "Тіло Брехні",
+        "Вовк з Волл-стріт"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Хто зіграв роль дона Віто Корлеоне в фільмі «Хрещений батько»?",
+      "answers": [
+        "Аль Пачіно",
+        "Роберт Дюваль",
+        "Роберт де Ніро",
+        "Марлон Брандо"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "В чому був звинувачений банківський працівник Енді Дюфрейн в фільмі «Втеча з Шоушенка»?",
+      "answers": [
+        "У вбивстві своєї дружини та її коханця",
+        "У шахрайстві в особливо великих розмірах",
+        "У несплаті податків",
+        "У смертельному ДТП"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Який з гріхів символізував Джон Доу в фільмі «Сім» режисером якого є Девід Фінчер?",
+      "answers": [
+        "Гординя",
+        "Гнів",
+        "Заздрість",
+        "Жадібність"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Від чого помер головний герой фільму «Титанік» Джек Доусон?",
+      "answers": [
+        "Не вмів плавати і втонув",
+        "Його з’їли акули",
+        "Отруївся",
+        "Отримав переохолодження"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Ветераном якої війни був головний герой фільму «Рембо: Перша кров» Джон Рембо?",
+      "answers": [
+        "Іракської",
+        "В'єтнамської",
+        "Афганської",
+        "Другої світової"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "В якому році був знятий фільм «Термінатор» перша частина?",
+      "answers": [
+        "1984",
+        "1987",
+        "1990",
+        "1991"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Скільки дублів для зйомки трюку з бадмінтоном у стрічці «Лорд Дракон» здійснив Джекі Чан?",
+      "answers": [
+        "22",
+        "2713",
+        "2900",
+        "більше 3 000"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Рік народження американського актора Чака Норріса?",
+      "answers": [
+        "1970",
+        "1940",
+        "1955",
+        "787 рік до нашої ери"
+      ],
+      "correctIndex": 1
+    }
+  ]
 }

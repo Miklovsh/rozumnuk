@@ -223,10 +223,6 @@ li {
   transform: scale(1.1);
 }
 
-.disable {
-  opacity: 0.3;
-}
-
 .yellow {
   background-color: yellow;
 }

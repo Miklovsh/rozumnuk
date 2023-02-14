@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, {useState } from 'react';
 import Start from './Start';
 import Rules from './Rules';
 import Categories from './Categories';
@@ -10,6 +10,9 @@ import Music from './category/Music';
 import Technologies from './category/Technologies';
 import Sport from './category/Sport';
 import Films from './category/Films';
+import useSound from 'use-sound';
+import correct from './correct.mp3';
+import wrong from './wrong.mp3'
 
 
 function App() {
@@ -23,11 +26,23 @@ function App() {
   const [technologiesCategory, setTechnologiesCategory] = useState(false);
   const [filmsCategory, setFilmsCategory] = useState(false);
   const [questionIndex, setQuestionIndex] = useState(0);
+  const [answerIndex, setAnswerIndex] = useState(0);
+  const [result, setResult] = useState(0);
+  const [correctAnswer] = useSound(correct);
+  const [wrongAnswer] = useSound(wrong);
 
-  function Next() {
+
+  const checkAnswers = (correctIndex, index) => {
+    if (correctIndex === index) {
+      setResult(result + 1)
+      correctAnswer();
+    } else {
+      wrongAnswer();
+    }
+
     setQuestionIndex(questionIndex + 1);
+    setAnswerIndex(answerIndex + 1);
   }
-
 
   function showStudio() {
     setStudio(true);
@@ -38,11 +53,20 @@ function App() {
   }
 
 
+  if (questionIndex > 9 && answerIndex > 9) {
+    if (result > 7) {
+      return <Winner name={name} result={result} />
+    } else {
+      return <Lost name={name} result={result} />
+    }
+  }
+
+
   return (
     <div className="App">
       {studio ? (
         <div className="studio">
-          <span className="studio__result">Результат: 10 відповідей</span>
+          <span className="studio__result">Правильних відповідей: {result}</span>
           <div className="studio__monitor">
             {categories && (
               <Categories
@@ -53,38 +77,43 @@ function App() {
                 setTechnologiesCategory={setTechnologiesCategory}
                 setFilmsCategory={setFilmsCategory}
               />
-            )};
+            )}
             <div className="quiz">
               {literatureCategory && (
                 <Literature
                   questionIndex={questionIndex}
-                  Next={Next}
+                  answerIndex={answerIndex}
+                  checkAnswers={checkAnswers}
                 />
-              )};
+              )}
               {musicCategory && (
                 <Music
                   questionIndex={questionIndex}
-                  Next={Next}
+                  answerIndex={answerIndex}
+                  checkAnswers={checkAnswers}
                 />
-              )};
+              )}
               {sportCategory && (
                 <Sport
                   questionIndex={questionIndex}
-                  Next={Next}
+                  answerIndex={answerIndex}
+                  checkAnswers={checkAnswers}
                 />
-              )};
+              )}
               {technologiesCategory && (
                 <Technologies
                   questionIndex={questionIndex}
-                  Next={Next}
+                  answerIndex={answerIndex}
+                  checkAnswers={checkAnswers}
                 />
-              )};
+              )}
               {filmsCategory && (
                 <Films
                   questionIndex={questionIndex}
-                  Next={Next}
+                  answerIndex={answerIndex}
+                  checkAnswers={checkAnswers}
                 />
-              )};
+              )}
             </div>
           </div>
         </div>
@@ -98,8 +127,6 @@ function App() {
           </div>
         </div>
       )}
-      {/* <Lost /> */}
-      <Winner name={name} />
     </div>
   );
 }

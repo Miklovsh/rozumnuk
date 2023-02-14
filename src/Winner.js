@@ -3,7 +3,7 @@ import WinnerBG from "./fireworks-bg.mp4";
 import Award from "./award.png";
 
 
-function Winner({ name }) {
+function Winner({ name, result }) {
   return (
     <div className="winner" >
       <div className="winner__video">
@@ -12,7 +12,7 @@ function Winner({ name }) {
       <div className="winner__content">
         <h1 className="winner__title">Вітаю {name} ви стали переможцем гри "Розумник"</h1>
         <img className="winner__award" src={Award} />
-        <p className="winner__result">Ваш результат - 27 правильних відповідей</p>
+        <p className="winner__result">Ваш результат - {result} правильних відповідей</p>
       </div>
     </div>
   )
