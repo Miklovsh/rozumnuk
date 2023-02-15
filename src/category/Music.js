@@ -1,11 +1,12 @@
 import React from "react";
 import data from "../data.json";
+import Timer from "../Timer";
 
 function Music({ checkAnswers, answerIndex, questionIndex }) {
 
   return (
     <div>
-      <span className="quiz__timer">90</span>
+      <Timer />
       <h3 className="quiz__questions">{data.Music[questionIndex].question}</h3>
       <ul className="quiz__answers">
         {data.Music[answerIndex].answers.map((answer, index) =>

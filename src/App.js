@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState } from 'react';
+import React, { useState } from 'react';
 import Start from './Start';
 import Rules from './Rules';
 import Categories from './Categories';
@@ -11,8 +11,8 @@ import Technologies from './category/Technologies';
 import Sport from './category/Sport';
 import Films from './category/Films';
 import useSound from 'use-sound';
-import correct from './correct.mp3';
-import wrong from './wrong.mp3'
+import correct from './media/correct.mp3';
+import wrong from './media/wrong.mp3'
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
   const [result, setResult] = useState(0);
   const [correctAnswer] = useSound(correct);
   const [wrongAnswer] = useSound(wrong);
+
 
 
   const checkAnswers = (correctIndex, index) => {

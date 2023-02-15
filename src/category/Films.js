@@ -1,11 +1,12 @@
 import React from "react";
 import data from "../data.json";
+import Timer from "../Timer";
 
 function Films({ checkAnswers, answerIndex, questionIndex }) {
 
   return (
     <div>
-      <span className="quiz__timer">90</span>
+      <Timer />
       <h3 className="quiz__questions">{data.Films[questionIndex].question}</h3>
       <ul className="quiz__answers">
         {data.Films[answerIndex].answers.map((answer, index) =>

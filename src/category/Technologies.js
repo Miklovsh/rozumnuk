@@ -1,11 +1,12 @@
 import React from "react";
-import data from "../data.json"
+import data from "../data.json";
+import Timer from "../Timer";
 
 function Technologies({ checkAnswers, answerIndex, questionIndex }) {
 
   return (
     <div>
-      <span className="quiz__timer">90</span>
+      <Timer />
       <h3 className="quiz__questions">{data.Technologies[questionIndex].question}</h3>
       <ul className="quiz__answers">
         {data.Technologies[answerIndex].answers.map((answer, index) =>

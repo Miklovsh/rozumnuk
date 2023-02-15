@@ -29,7 +29,7 @@ li {
 }
 
 .start {
-  background-image: url(../src/start-bg.jpg);
+  background-image: url(../src/media/start-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -159,7 +159,7 @@ li {
 }
 
 .studio {
-  background-image: url(../src/bg.webp);
+  background-image: url(../src/media/bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -348,6 +348,7 @@ li {
   line-height: 24px;
   color: gold;
   margin-top: 10px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -381,17 +382,41 @@ li {
   text-transform: uppercase;
 }
 
-.lost__message-btn {
+.try-again {
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
   font-size: 20px;
   line-height: 24px;
   background-color: #fff;
-  padding: 10px 5px;
-  border: none;
+  padding: 5px 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
   cursor: pointer;
+  color: #000;
 }
 
-.lost__message-btn:hover {
+.try-again:hover {
   transition: all 3s;
   background-color: gold;
+}
+
+
+.time-over {
+  position: absolute;
+  top: 0;
+  left: auto;
+  background-color: #000;
+  width: 1000px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-over__title {
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 20px;
 }
