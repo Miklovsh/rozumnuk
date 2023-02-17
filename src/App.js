@@ -124,7 +124,7 @@ function App() {
             {rules
               ? <Rules showStudio={showStudio} />
               : <Start setName={setName} showRules={showRules} />
-            };
+            }
           </div>
         </div>
       )}

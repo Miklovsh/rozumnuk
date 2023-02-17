@@ -79,13 +79,6 @@ li {
   color: #000;
 }
 
-.start__btn-wrapper {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-  bottom: 420px;
-  margin-top: 10px;
-}
 
 .start__btn {
   font-family: 'Poppins', sans-serif;
@@ -98,25 +91,20 @@ li {
   cursor: pointer;
   background: #000;
   border: 1px solid #000;
+  border-radius: 5px;
   outline: none;
   transition: 1s ease-in-out;
   color: #fff;
+  margin-top: 30px;
 }
 
-.start__btn svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
+.start__btn:hover {
+  transition: 2s;
+  background: #fff;
+  border-color: #fff;
+  color: #000;
 }
 
-.start__btn:hover svg {
-  stroke-dashoffset: -480;
-}
 
 .start__rules-inner {
   background-color: #000;
@@ -125,6 +113,7 @@ li {
   position: relative;
   top: 100px;
 }
+
 
 .start__rules-title {
   font-size: 28px;
@@ -146,6 +135,7 @@ li {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
+  border-radius: 5px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   line-height: 22px;
@@ -155,6 +145,31 @@ li {
 .start__rules-btn:hover {
   transition: all 3s;
   background-color: #fff;
+  color: #000;
+}
+
+.developer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.developer__text {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.developer__link {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.developer__link:hover {
+  transition: all 2s;
   color: #000;
 }
 
