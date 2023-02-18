@@ -7,7 +7,7 @@ function Literature({ checkAnswers, answerIndex, questionIndex }) {
 
 
   return (
-    <div>
+    <div className="quiz">
       <Timer />
       <h3 className="quiz__questions">{data.Literature[questionIndex].question}</h3>
       <ul className="quiz__answers">

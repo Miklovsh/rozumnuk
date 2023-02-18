@@ -5,7 +5,7 @@ import Timer from "../Timer";
 function Films({ checkAnswers, answerIndex, questionIndex }) {
 
   return (
-    <div>
+    <div className="quiz">
       <Timer />
       <h3 className="quiz__questions">{data.Films[questionIndex].question}</h3>
       <ul className="quiz__answers">

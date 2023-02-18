@@ -79,7 +79,6 @@ function App() {
                 setFilmsCategory={setFilmsCategory}
               />
             )}
-            <div className="quiz">
               {literatureCategory && (
                 <Literature
                   questionIndex={questionIndex}
@@ -115,7 +114,6 @@ function App() {
                   checkAnswers={checkAnswers}
                 />
               )}
-            </div>
           </div>
         </div>
       ) : (
