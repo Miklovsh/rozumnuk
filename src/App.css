@@ -68,6 +68,7 @@ li {
   line-height: 34px;
   text-align: center;
   color: #000;
+  max-width: 100%;
 }
 
 .start__input-name::placeholder {
@@ -441,7 +442,8 @@ li {
   left: 0;
   background-color: #000;
   width: 1000px;
-  height: 385px;
+  min-height: 400px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -506,6 +508,10 @@ li {
 
   .time-over {
     width: 100%;
+  }
+
+  .winner__award {
+    max-width: 250px;
   }
 
   .lost__message-title {
@@ -664,14 +670,9 @@ li {
   }
 
   .quiz {
-    padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 0px;
-  }
-
-  .quiz__questions {
-    margin-top: 15px;
   }
 
   .quiz__answer {
