@@ -9,42 +9,20 @@ function Categories(
     setFilmsCategory
   }) {
 
-
-  function chooseLiterature() {
-    setLiteratureCategory(true);
+  const chooseCategory = (setState) => {
+    setState(true);
     setCategories(false);
   }
-
-  function chooseMusic() {
-    setMusicCategory(true);
-    setCategories(false);
-  }
-
-  function chooseSport() {
-    setSportCategory(true);
-    setCategories(false);
-  }
-
-  function chooseTechnologies() {
-    setTechnologiesCategory(true);
-    setCategories(false);
-  }
-
-  function chooseFilms() {
-    setFilmsCategory(true);
-    setCategories(false);
-  }
-
 
   return (
     <div className="categories" >
       <ul className="categories__inner">
         <h2 className="categories__title">Категорії</h2>
-        <li className="categories__category yellow" onClick={chooseLiterature}>Література</li>
-        <li className="categories__category blue" onClick={chooseMusic}>Музика</li>
-        <li className="categories__category green" onClick={chooseSport}>Спорт</li>
-        <li className="categories__category red" onClick={chooseTechnologies}>Технології</li>
-        <li className="categories__category orange" onClick={chooseFilms}>Фільми</li>
+        <li className="categories__category yellow" onClick={() => chooseCategory(setLiteratureCategory)}>Література</li>
+        <li className="categories__category blue" onClick={() => chooseCategory(setMusicCategory)}>Музика</li>
+        <li className="categories__category green" onClick={() => chooseCategory(setSportCategory)}>Спорт</li>
+        <li className="categories__category red" onClick={() => chooseCategory(setTechnologiesCategory)}>Технології</li>
+        <li className="categories__category orange" onClick={() => chooseCategory(setFilmsCategory)}>Фільми</li>
       </ul>
     </div>
   )
